@@ -1,0 +1,103 @@
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kaushan Script', cursive;
+}
+body, body * {
+    cursor: none;
+}
+body .cursor {
+    position: fixed;
+    background: #f9b5df;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: -10px 0 0 -10px;
+    will-change: transform;
+    user-select: none;
+    pointer-events: none;
+    z-index: 100;
+}
+body .shapes {
+    height: 100vh;
+    width: 100vw;
+    background: #ffffff;
+    overflow: hidden;
+}
+body .shape {
+    will-change: transform;
+    position: absolute;
+    border-radius: 50%;
+}
+body .shape.shape-1 {
+    background: #FED049;
+    width: 450px;
+    height: 450px;
+    margin: -225px 0 0 -225px;
+    mix-blend-mode: multiply;
+}
+body .shape.shape-2 {
+    background: #F25287;
+    width: 320px;
+    height: 320px;
+    margin: -160px 0 0 -160px;
+    mix-blend-mode: multiply;
+}
+body .shape.shape-3 {
+    background: #282846;
+    width: 160px;
+    height: 160px;
+    margin: -80px 0 0 -80px;
+    mix-blend-mode: multiply;
+}
+body .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    mix-blend-mode: screen;
+}
+body h1 {
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-size: 4em;
+    user-select: none;
+    mix-blend-mode:multiply;
+    font-weight: 900;
+
+}
+*{
+    caret-color: rgba(255, 255, 255, 0);
+}
+
+body p{
+    display: flex;
+    color: rgb(56, 0, 65);
+    font-family: 'Joan', serif;
+    font-size: 1.5em;
+    user-select: none;
+    font-style: normal;
+    margin: 40px 220px ;
+    mix-blend-mode:multiply;
+    text-align: center;
+}
+
+.number{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family: 'Joan', serif;
+    font-size: 0.5em;
+    user-select: none;
+    font-style: normal;
+    text-align: center;
+    mix-blend-mode: multiply;
+    margin: -10px;
+}
