@@ -85,7 +85,7 @@ body p{
     font-size: 1.5em;
     user-select: none;
     font-style: normal;
-    margin: 40px 220px ;
+    margin: 30px 220px ;
     mix-blend-mode:multiply;
     text-align: center;
 }
@@ -99,5 +99,5 @@ body p{
     font-style: normal;
     text-align: center;
     mix-blend-mode: multiply;
-    margin: -10px;
+    margin: -20px;
 }
